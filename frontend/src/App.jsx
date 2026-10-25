@@ -10,7 +10,9 @@ import {
 } from "react-router-dom";
 import "./App.css";
 
-const API = "http://localhost:5000/api/feedback";
+
+const API = "https://feedspace-fzdj.onrender.com/api/feedback";
+
 
 function Icon({ name, size = 20 }) {
   const common = {
